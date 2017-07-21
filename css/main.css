@@ -22,7 +22,7 @@
 	width: 80px;
 	height: 80px;
 	background-color: #F012ED;
-	margin-top: -169px;
+	margin-top: -109px;
 	margin-left: 1100px;
 }
 
@@ -41,4 +41,47 @@
 	width: 350px;
 	margin-top: -270px;
 	margin-left:800px;
+}
+
+.heart {
+    position: relative;
+    width: 100px;
+    height: 90px;
+    margin-left: 900px;
+    margin-top: -150px;
+}
+.heart:before,
+.heart:after {
+    position: absolute;
+    content: "";
+    left: 30px;
+    top: 0;
+    width: 30px;
+    height: 50px;
+    background: #EE8ABC;
+    -moz-border-radius: 50px 50px 0 0;
+    border-radius: 50px 50px 0 0;
+    -webkit-transform: rotate(-45deg);
+       -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+         -o-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    -webkit-transform-origin: 0 100%;
+       -moz-transform-origin: 0 100%;
+        -ms-transform-origin: 0 100%;
+         -o-transform-origin: 0 100%;
+            transform-origin: 0 100%;
+}
+.heart:after {
+    left: 0;
+    -webkit-transform: rotate(45deg);
+       -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+         -o-transform: rotate(45deg);
+            transform: rotate(45deg);
+    -webkit-transform-origin: 100% 100%;
+       -moz-transform-origin: 100% 100%;
+        -ms-transform-origin: 100% 100%;
+         -o-transform-origin: 100% 100%;
+            transform-origin :100% 100%;
 }
