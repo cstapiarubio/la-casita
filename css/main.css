@@ -12,9 +12,9 @@
 
  .home{
 	width: 450px;
-	height: 300px;
+	height: 260px;
 	background-color: #72410D;
-	margin-top: -350px;
+	margin-top: -310px;
 	margin-left: 800px;
 }
 
@@ -32,4 +32,13 @@
 	background-color: #6D676D;
 	margin-top: -200px;
 	margin-left:850px;
+}
+
+.techo{
+	border-bottom: 100px solid black;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	width: 350px;
+	margin-top: -270px;
+	margin-left:800px;
 }
