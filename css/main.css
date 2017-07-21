@@ -11,9 +11,25 @@
 }
 
  .home{
-	width: 400px;
+	width: 500px;
 	height: 300px;
-	background: #72410D;
+	background-color: #72410D;
 	margin-top: -350px;
 	margin-left: 800px;
+}
+
+ .window{
+	width: 100px;
+	height: 100px;
+	background-color: #F012ED;
+	margin-top: -220px;
+	margin-left: 1100px;
+}
+
+.door{
+	width: 150px;
+	height: 200px;
+	background-color: #6D676D;
+	margin-bottom: 100px;
+	margin-left: 100px;
 }
